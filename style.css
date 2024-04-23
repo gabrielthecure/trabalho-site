@@ -1,0 +1,371 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a569387e;
+}
+
+
+header {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 32px;
+}
+
+nav {
+    display: contents;
+    margin-top: 32px;
+    padding: 20px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    padding: 32px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+p a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    transition: 0.5s;
+    font-size: larger;
+}
+
+.redes-sociais {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 32px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+.principal-gragas {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    border-top: 0.4px solid beige;
+    gap: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+.imagem-gragas {
+    height: 250px;
+    width: 250px;
+    border-radius: 15%;
+}
+
+.navegacao {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 32px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.titulo-gragas {
+    font-family: "Open Sans", sans-serif;
+    flex-direction: row;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 550;
+}
+
+.div-pergunta {
+    font-family: "Open Sans", sans-serif;
+    padding: 16px;
+}
+
+.builds-titulo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    padding: 16px;
+    font-weight: 1000;
+}
+
+.explicacao-geral {
+    font-family: "Open Sans", sans-serif;
+    font-size: medium;
+    padding: 16px;
+}
+
+.blocos {
+    margin-top: 10px;
+    margin-bottom: 0 auto;
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.resumo {
+    height: 400px;
+    background-color: #a569387e;
+    width: 400px;
+    padding: 16px;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: 10px;
+    height: 50%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.gragas-gragolandia {
+    width: 60%;
+    margin-left: 10px;
+}
+
+.blocos2 {
+    margin-top: 10px;
+    flex-direction: row;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.itens-iniciais1 {
+    height: 400px;
+    background-color: #a569387e;
+    width: 400px;
+    margin: 0 10px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+
+.itens-iniciais2 {
+    height: 400px;
+    background-color: #a569387e;
+    width: 400px;
+    margin: 0 10px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.itens-iniciais3 {
+    height: 400px;
+    background-color: #a569387e;
+    width: 400px;    
+    margin: 0 10px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+
+.blocos3 {
+    margin-top: 10px;
+    flex-direction: row;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 0.4px solid beige;
+    margin-bottom: 50px;
+}
+
+.primeira-compra {
+    height: 400px;
+    background-color: #a569387e;
+    width: 400px;
+    margin: 0 10px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.itens-miticos {
+    height: 400px;
+    background-color: #a569387e;
+    width: 400px;
+    margin: 0 10px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.itens-situacionais {
+    height: 400px;
+    background-color: #a569387e;
+    width: 400px;
+    margin: 0 10px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.titulo-runas {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    padding: 16px;
+    font-weight: 1000;
+}
+
+.bloco-runas {
+    margin-top: 10px;
+    margin-bottom: 0 auto;
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    padding: 50px;
+}
+
+.explicacao-geral-runas {
+    font-family: "Open Sans", sans-serif;
+    font-size: medium;
+    padding: 16px;
+}
+
+.titulo-combos {
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    padding: 16px;
+    font-weight: 1000;
+    border-top: 0.4px solid beige;
+}
+
+.explicacao-geral-combos {
+    font-family: "Open Sans", sans-serif;
+    font-size: medium;
+    padding: 16px;
+}
+
+.bloco-habilidades {
+    margin-top: 10px;
+    margin-bottom: 0 auto;
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    padding: 50px;
+}
+
+.true-combo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    padding: 16px;
+    font-weight: 1000;
+}
+
+.combo-1-titulo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    padding: 16px;
+    font-weight: 1000;
+}
+
+.bloco-combos {
+    margin-top: 10px;
+    margin-bottom: 0 auto;
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    padding: 50px;
+}
+
+.combo-1 {
+    margin-left: 50px;
+}
+
+.seta {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.combo-2-titulo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    padding: 16px;
+    font-weight: 1000;
+}
+
+.combo-2 {
+    margin-left: 47px;
+}
+
+.combo-3-titulo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    padding: 16px;
+    font-weight: 1000;
+}
+
+.combo-3 {
+    margin-left: 47px;
+}
+
+footer {
+    border-top: 0.4px solid beige;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media(max-width:768px){
+    .principal-gragas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .builds-gragas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blocos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blocos2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blocos3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bloco-runas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bloco-combos{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-combos{
+        flex-direction: column;
+        align-items: center;
+    }
+}
